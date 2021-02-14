@@ -9,10 +9,15 @@ static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "Jetbrains Mono:style=Regular:size=10",
                                         "Nerd Font Symbols Mono:size=80"};
 static const char dmenufont[]       = "Jetbrains Mono:style=Regular:size=10";
+// background color
 static const char col_gray1[]       = "#222222";
+// inactive window border color
 static const char col_gray2[]       = "#444444";
+// foreground color
 static const char col_gray3[]       = "#bbbbbb";
+// current tag & window foreground color
 static const char col_gray4[]       = "#eeeeee";
+// top bar second color and active window border color
 static const char col_cyan[]        = "#9d5fae";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
