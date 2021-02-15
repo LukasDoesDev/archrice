@@ -4,7 +4,8 @@
 
 picom & 
 dunst &
-nitrogen --restore &
+# nitrogen --restore &
+feh --bg-scale ~/wallpapers/black_orange_arch.jpg &
 setxkbmap 'fi'
 
 ~/.dwm/status.sh &
