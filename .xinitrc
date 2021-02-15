@@ -2,7 +2,7 @@
 
 
 
-
+picom & 
 dunst &
 nitrogen --restore &
 setxkbmap 'fi'
