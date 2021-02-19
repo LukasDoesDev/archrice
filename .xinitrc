@@ -1,12 +1,15 @@
 #!/bin/sh
 
+if [ -x "$HOME/.screenlayout.sh" ]; then
+  ~/.screenlayout/default.sh
+fi
 
-~/.screenlayout/default.sh
+WALLPAPER='$HOME/wallpapers/black_orange_arch.jpg'
 
 picom & 
 dunst &
 # nitrogen --restore &
-feh --bg-scale ~/wallpapers/black_orange_arch.jpg &
+feh --bg-scale $WALLPAPER &
 setxkbmap 'fi'
 flameshot &
 
