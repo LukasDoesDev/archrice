@@ -6,7 +6,7 @@ if [ -x "$HOME/.screenlayout.sh" ]; then
 fi
 
 
-WALLPAPER='$HOME/wallpapers/black_orange_arch.jpg'
+WALLPAPER="$HOME/wallpapers/black_orange_arch.jpg"
 
 picom & 
 dunst &
