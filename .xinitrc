@@ -1,6 +1,7 @@
 #!/bin/sh
 
 
+~/.screenlayout/default.sh
 
 picom & 
 dunst &
@@ -11,5 +12,4 @@ flameshot &
 
 ~/.dwm/status.sh &
 
-~/.screenlayout/default.sh
 exec dwm
