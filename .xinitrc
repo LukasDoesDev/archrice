@@ -1,15 +1,20 @@
 #!/bin/sh
 
+# If file exists and execute permission is granted
 if [ -x "$HOME/.screenlayout.sh" ]; then
-  ~/.screenlayout/default.sh
+    ~/.screenlayout/default.sh
 fi
+
 
 WALLPAPER='$HOME/wallpapers/black_orange_arch.jpg'
 
 picom & 
 dunst &
-# nitrogen --restore &
-feh --bg-scale $WALLPAPER &
+
+if [ -r "$WALLPAPER" ]; then
+    feh --bg-scale $WALLPAPER &
+fi
+
 setxkbmap 'fi'
 flameshot &
 
