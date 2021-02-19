@@ -2,7 +2,7 @@
 
 # If file exists and execute permission is granted
 if [ -x "$HOME/.screenlayout.sh" ]; then
-    ~/.screenlayout/default.sh
+    ~/.screenlayout.sh
 fi
 
 
